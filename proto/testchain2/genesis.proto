@@ -1,0 +1,11 @@
+syntax = "proto3";
+package notionallabs.testchain2.testchain2;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/notional-labs/test-chain2/x/testchain2/types";
+
+// GenesisState defines the testchain2 module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
